@@ -1,0 +1,20 @@
+# Ignore node_modules directory
+node_modules/
+
+
+
+# Ignore logs
+*.log
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.env
+server/package-lock.json
+server/package.json
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
